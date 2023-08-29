@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <script defer src="index.js" type="text/javascript"></script>
+        <title>Country Info Project</title>
+
+    </head>
+
+    <body>
+        <header>
+            <h3>Country Information</h3>
+        </header>
+
+        <!-- Selection Menu -->
+        <div id="country-menu">
+            <!-- Images here -->
+        </div>
+
+        <div id="country-detail">
+            <img id="detail-image" class="detail-image" src="./img/image-placeholder.jpg" alt="Insert Name Here" />
+            <!-- <h2 id="country-name" class="name">Insert Name Here</h2>
+            <h3 id="motto-name" class="motto">Insert Motto Here</h3> -->
+        </div>
+
+        <h2>Country:</h2>
+        <p>
+            <span id="country-name" class="name">Insert name here</span>
+        </p>
+
+        <h3>Capital:</h3>
+        <p>
+            <span id="capital-display" class="display">Insert capital here</span>
+        </p>
+
+        <h3>Motto:</h3>
+        <p>
+            <span id="motto-name" class="motto">Insert motto here</span>
+        </p>
+
+        <h3>Historical Fact:</h3>
+        <p id="historical-fact-display" class="fact">Insert historical fact here</p>
+
+
+        <!-- New Country Form -->
+        <form id="new-country">
+            <h4>Add New Country</h4>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="new-name" />
+            <label for="capital">Capital: </label>
+            <input type="text" name="capital" id="new-capital" />
+            <label for="motto">Motto: </label>
+            <input type="text" name="motto" id="new-motto" />
+            <label for="image">Image: </label>
+            <input type="text" name="image" id="new-image" />
+            <label for="image">Map: </label>
+            <input type="text" name="map" id="new-map" />
+            <label for="historical-fact" name="historical-fact" id="new-historical-fact">Historical Fact: </label>
+            <input type="text" name="historical-fact" id="new-historical-fact" />
+            <input type="submit" value="Create" />
+        </form>
+
+    </body>
+
+</html>
