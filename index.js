@@ -44,22 +44,6 @@ function renderDetails(country) {
     factDisplay.textContent = country.fact;
 };
 
-// function createNewCountry(e) {
-//     e.preventDefault();
-
-//     const newCountry = {
-//         name: e.target.name.value,
-//         capital: e.target.capital.value,
-//         motto: e.target.motto.value,
-//         img: e.target.image.value,
-//         map: e.target.map.value,
-//         fact: e.target.fact.value,
-//     }
-//     console.log(newCountry);
-//     renderCountry(newCountry)
-    
-// };
-
 function createNewCountry(e) {
     e.preventDefault();
 

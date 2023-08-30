@@ -71,6 +71,24 @@
       "map": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Japan_on_the_globe_%28Japan_centered%29.svg",
       "fact": "Under the 1947 constitution, Japan has maintained a unitary parliamentary constitutional monarchy with a bicameral legislature, the National Diet. Japan is a developed country and a great power, with one of the largest economies by nominal GDP. Japan has renounced its right to declare war, though it maintains a Self-Defense Force that ranks as one of the world's strongest militaries. A global leader in the automotive, robotics, and electronics industries, the country has made significant contributions to science and technology and is one of the world's largest exporters and importers. It is part of multiple major international and intergovernmental institutions.",
       "id": 8
+    },
+    {
+      "name": "Saudi Arabia",
+      "capital": "Riyadh",
+      "motto": "There is no god but God; Muhammad is the messenger of God",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Royal_Flag_of_Saudi_Arabia_%281953-1964%29.svg",
+      "map": "https://upload.wikimedia.org/wikipedia/commons/5/57/Saudi_Arabia_on_the_globe_%28Saudi_Arabia_centered%29.svg",
+      "fact": "Petroleum was discovered in 1938 and followed up by several other finds in the Eastern Province. Saudi Arabia has since become the world's second-largest oil producer (behind the US) and the world's largest oil exporter, controlling the world's second-largest oil reserves and the fourth-largest gas reserves.[32] The kingdom is categorized as a World Bank high-income economy and is the only Arab country to be part of the G20 major economies.",
+      "id": 9
+    },
+    {
+      "name": "Italy",
+      "capital": "Rome",
+      "motto": "No official motto",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
+      "map": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Italy_on_the_globe_%28Europe_centered%29.svg",
+      "fact": "The Italian peninsula was historically the native place of numerous ancient peoples and destination of a myriad of different peoples and cultures who immigrated throughout history. By the first century BC, the Roman Empire expanded its territory across Europe, North Africa and the Near East, establishing the Pax Romana.",
+      "id": 10
     }
   ]
 }
