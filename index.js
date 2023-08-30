@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function renderCountries(countries) {
     console.log(countries)
     countries.forEach(renderCountry)
-}
+};
 
 function renderCountry(country) {
     const countryImage = document.createElement("img")
@@ -25,7 +25,7 @@ function renderCountry(country) {
     countryMenu.append(countryImage)
 
     countryImage.addEventListener("click", (e) => renderDetails(country))
-}
+};
 
 function renderDetails(country) {
     console.log(country.img)
@@ -42,30 +42,49 @@ function renderDetails(country) {
     mottoName.textContent = country.motto;
     capitalDisplay.textContent = country.capital;
     factDisplay.textContent = country.fact;
-}
+};
+
+// function createNewCountry(e) {
+//     e.preventDefault();
+
+//     const newCountry = {
+//         name: e.target.name.value,
+//         capital: e.target.capital.value,
+//         motto: e.target.motto.value,
+//         img: e.target.image.value,
+//         map: e.target.map.value,
+//         fact: e.target.fact.value,
+//     }
+//     console.log(newCountry);
+//     renderCountry(newCountry)
+    
+// };
 
 function createNewCountry(e) {
     e.preventDefault();
 
-    const newCountry = {
-        name: e.target.name.value,
-        capital: e.target.capital.value,
-        motto: e.target.motto.value,
-        img: e.target.getAttribute('src'),
-        map: e.target.map.value,
-        fact: e.target.fact.value
-    }
-    console.log(newCountry);
-    
-    // fetch(API, {
-    //     method: "POST",
-    //     headers: {
-    //         "Content-Type": "application/json",
-    //         "Accept": "application/json"
-    //     },
-    //     body: JSON.stringify({newCountry})
-    // })
-    // .then(resp => resp.json())
-    // .then(console.log(data))
-};
+    const countryName = e.target.name.value
+    const countryCapital = e.target.capital.value
+    const countryMotto = e.target.motto.value
+    const countryImg = e.target.image.value
+    const countryMap = e.target.map.value
+    const countryFact = e.target.fact.value
 
+    fetch(API, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+        },
+        body: JSON.stringify({
+            name: countryName,
+            capital: countryCapital,
+            motto: countryMotto,
+            img: countryImg,
+            map: countryMap,
+            fact: countryFact
+        })
+    })
+    .then(resp => resp.json())
+    .then(newCountry => console.log(newCountry))
+};

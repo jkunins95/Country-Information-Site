@@ -1,67 +1,76 @@
 {
-    "countries": [
-        {
-            "id": 1,
-            "name": "United States of America",
-            "img": "../img/flags/United States.webp",
-            "map": "../img/maps/US location map.png",
-            "motto": "In God We Trust",
-            "capital": "Washington D.C.",
-            "fact": "The United States is a highly developed country that has the highest median income of any polity in the world. Its economy accounts for approximately a quarter of global GDP and is the world's largest GDP at market exchange rates. It wields considerable global influence as the world's foremost political, cultural, economic, military and scientific power."
-        },
-        {
-            "id": 2,
-            "name": "United Kingdom of Great Britain and Northern Ireland",
-            "img": "../img/flags/United Kingdom.png",
-            "map": "../img/maps/UK location map.png",
-            "motto": "God and my right",
-            "capital": "London",
-            "fact": "The British empire, at its height in the 1920s, encompassed almost a quarter of the world's landmass and population, and was the largest empire in history; however, its involvement in the First World War and the Second World War, the cumulative crisis and the loss of prestige led to the decolonization of most of the British colonies and the eventual end of the Empire."
-        },
-        {
-            "id": 3,
-            "name": "France",
-            "img": "../img/flags/France.png",
-            "map": "../img/maps/France location map.png",
-            "motto": "Liberty, Equality, Fraternity",
-            "capital": "Paris",
-            "fact": "The French Revolution of 1789 overthrew the Ancien Regime and produced the Declaration of the Rights of Man, which expresses the nation's ideals to this day. France reached its political and military zenith in the early 19th century under Napoleon Bonaparte, subjugating part of continental Europe and establishing the First French Empire. The French Revolution and Napolenic Wars significantly shaped the course of European history."
-        },
-        {
-            "id": 4,
-            "name": "Russia",
-            "img": "../img/flags/Russia.webp",
-            "map": "../img/maps/Russia location map.png",
-            "motto": "No offical motto",
-            "capital": "Moscow",
-            "fact": "At the expense of millions of lives, the Soviet Union underwent rapid industrialisation in the 1930s, and later played a decisive role for the Allies of World War II by leading large-scale efforst on the Eastern Front. With the onset of the Cold War, it competed with the United States for global ideological influence; the Soviet era of the 20th century saw some of the most significant Russian technological achievements, including the first human-made satellite and the first human expedition into outer space."
-        },
-        {
-            "id": 5,
-            "name": "China",
-            "img": "../img/flags/China.png",
-            "map": "../img/maps/China location map.png",
-            "motto": "Serve The People!",
-            "capital": "Beijing",
-            "fact": "In 221 BCE, China was unified under an emperor, ushering in more than two millennia in which China was governed by one or more imperical dynsaties, such as the Han, Tang, Ming and Qing. Some of China's most notable achievements, such as the invention of gunpowder and paper, the establishment of the Silk Road, and the building of the Great Wall, occurre during this period. The Chinese culture, including languages, traditions, architecture, philosophy and more, has heavily influenced East Asia during this imperial period."
-        },
-        {
-            "id": 6,
-            "name": "Brazil",
-            "img": "../img/flags/Brazil.webp",
-            "map": "../img/maps/Brazil location map.png",
-            "motto": "Order and Progress",
-            "capital": "Brasilia",
-            "fact": "Its Amazon basin includes a vast tropical forest, home to diverse wildlife, a variety of ecological systems, and extensive natural resources spanning numerous protected habitats. This unique environmental heritage positions Brazil at number one of 17 megadiverse countries, and is the subject of significant global interest, as environmental degradation through processes like deforestation has direct impacts on global issues like climate change and biodiversity loss."
-        },
-        {
-            "id": 7,
-            "name": "Australia",
-            "img": "../img/flags/Australia.png",
-            "map": "../img/maps/Australia location map.png",
-            "motto": "No offical motto",
-            "capital": "Canberra",
-            "fact": "It is ethnically diverse and multicultural, the product of large-scale immigration, with almost half of the population having at least one parent born overseas. Australia's abundant natural resources and well-developed international trade relations are crucial to the country's economy, which generates its income from various sources including services, mining exports, banking, manufacturing, agriculture and international education. Australia ranks amongst the highest in the world for quality of life, health, education, economic freedom, civil liberties and political rights."
-        }
-    ]
+  "countries": [
+    {
+      "id": 1,
+      "name": "United States of America",
+      "img": "../img/flags/United States.webp",
+      "map": "https://upload.wikimedia.org/wikipedia/commons/b/be/United_States_on_the_globe_%28North_America_centered%29.svg",
+      "motto": "In God We Trust",
+      "capital": "Washington D.C.",
+      "fact": "The United States is a highly developed country that has the highest median income of any polity in the world. Its economy accounts for approximately a quarter of global GDP and is the world's largest GDP at market exchange rates. It wields considerable global influence as the world's foremost political, cultural, economic, military and scientific power."
+    },
+    {
+      "id": 2,
+      "name": "United Kingdom of Great Britain and Northern Ireland",
+      "img": "../img/flags/United Kingdom.png",
+      "map": "https://upload.wikimedia.org/wikipedia/commons/f/f5/United_Kingdom_on_the_globe_%28Europe_centered%29.svg",
+      "motto": "God and my right",
+      "capital": "London",
+      "fact": "The British empire, at its height in the 1920s, encompassed almost a quarter of the world's landmass and population, and was the largest empire in history; however, its involvement in the First World War and the Second World War, the cumulative crisis and the loss of prestige led to the decolonization of most of the British colonies and the eventual end of the Empire."
+    },
+    {
+      "id": 3,
+      "name": "France",
+      "img": "../img/flags/France.png",
+      "map": "https://upload.wikimedia.org/wikipedia/commons/3/35/France_on_the_globe_%28France_centered%29.svg",
+      "motto": "Liberty, Equality, Fraternity",
+      "capital": "Paris",
+      "fact": "The French Revolution of 1789 overthrew the Ancien Regime and produced the Declaration of the Rights of Man, which expresses the nation's ideals to this day. France reached its political and military zenith in the early 19th century under Napoleon Bonaparte, subjugating part of continental Europe and establishing the First French Empire. The French Revolution and Napolenic Wars significantly shaped the course of European history."
+    },
+    {
+      "id": 4,
+      "name": "Russia",
+      "img": "../img/flags/Russia.webp",
+      "map": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Russia_on_the_globe_%28Russia_centered%29_%28alternative%29.svg",
+      "motto": "No offical motto",
+      "capital": "Moscow",
+      "fact": "At the expense of millions of lives, the Soviet Union underwent rapid industrialisation in the 1930s, and later played a decisive role for the Allies of World War II by leading large-scale efforst on the Eastern Front. With the onset of the Cold War, it competed with the United States for global ideological influence; the Soviet era of the 20th century saw some of the most significant Russian technological achievements, including the first human-made satellite and the first human expedition into outer space."
+    },
+    {
+      "id": 5,
+      "name": "China",
+      "img": "../img/flags/China.png",
+      "map": "https://upload.wikimedia.org/wikipedia/commons/2/29/China_on_the_globe_%28claimed_hatched%29_%28Asia_centered%29.svg",
+      "motto": "Serve The People!",
+      "capital": "Beijing",
+      "fact": "In 221 BCE, China was unified under an emperor, ushering in more than two millennia in which China was governed by one or more imperical dynsaties, such as the Han, Tang, Ming and Qing. Some of China's most notable achievements, such as the invention of gunpowder and paper, the establishment of the Silk Road, and the building of the Great Wall, occurre during this period. The Chinese culture, including languages, traditions, architecture, philosophy and more, has heavily influenced East Asia during this imperial period."
+    },
+    {
+      "id": 6,
+      "name": "Brazil",
+      "img": "../img/flags/Brazil.webp",
+      "map": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Brazil_on_the_globe_%28Brazil_centered%29.svg",
+      "motto": "Order and Progress",
+      "capital": "Brasilia",
+      "fact": "Its Amazon basin includes a vast tropical forest, home to diverse wildlife, a variety of ecological systems, and extensive natural resources spanning numerous protected habitats. This unique environmental heritage positions Brazil at number one of 17 megadiverse countries, and is the subject of significant global interest, as environmental degradation through processes like deforestation has direct impacts on global issues like climate change and biodiversity loss."
+    },
+    {
+      "id": 7,
+      "name": "Australia",
+      "img": "../img/flags/Australia.png",
+      "map": "https://upload.wikimedia.org/wikipedia/commons/5/56/Australia_on_the_globe_%28Australia_centered%29.svg",
+      "motto": "No offical motto",
+      "capital": "Canberra",
+      "fact": "It is ethnically diverse and multicultural, the product of large-scale immigration, with almost half of the population having at least one parent born overseas. Australia's abundant natural resources and well-developed international trade relations are crucial to the country's economy, which generates its income from various sources including services, mining exports, banking, manufacturing, agriculture and international education. Australia ranks amongst the highest in the world for quality of life, health, education, economic freedom, civil liberties and political rights."
+    },
+    {
+      "name": "Japan",
+      "capital": "Tokyo",
+      "motto": "No official motto",
+      "img": "https://cdn.britannica.com/91/1791-004-DA3579A5/Flag-Japan.jpg",
+      "map": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Japan_on_the_globe_%28Japan_centered%29.svg",
+      "fact": "Under the 1947 constitution, Japan has maintained a unitary parliamentary constitutional monarchy with a bicameral legislature, the National Diet. Japan is a developed country and a great power, with one of the largest economies by nominal GDP. Japan has renounced its right to declare war, though it maintains a Self-Defense Force that ranks as one of the world's strongest militaries. A global leader in the automotive, robotics, and electronics industries, the country has made significant contributions to science and technology and is one of the world's largest exporters and importers. It is part of multiple major international and intergovernmental institutions.",
+      "id": 8
+    }
+  ]
 }
